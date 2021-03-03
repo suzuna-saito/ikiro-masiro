@@ -2,8 +2,8 @@
 Debug/
 DxLib/
 Release/
-提出用/
-video/
+gameProto_12ShadowBloom/.vs
+gameProto_12ShadowBloom/gameProto/Debug
 *.exe
 *.ipdb
 *.ilk
