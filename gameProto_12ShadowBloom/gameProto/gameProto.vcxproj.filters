@@ -1,0 +1,461 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\System">
+      <UniqueIdentifier>{8ee0636a-4bf8-44f6-a67c-5e94111f8433}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\System">
+      <UniqueIdentifier>{5d0bb418-ab86-4710-9a86-5765c548381f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\Animation">
+      <UniqueIdentifier>{bc45a0fa-e880-4906-98be-7f174b6ed3dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\System\Renderer">
+      <UniqueIdentifier>{b5d53227-72be-4f21-a83e-2944ea6185c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\Renderer">
+      <UniqueIdentifier>{388571aa-3ad5-4ae8-a48a-de12dcfc0a5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\Audio">
+      <UniqueIdentifier>{0e1f0bae-2c87-40de-a7cb-3475e92e8698}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\System\Audio">
+      <UniqueIdentifier>{1b890754-113f-48d8-8e22-b48e04bde02e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\PlayerActorState">
+      <UniqueIdentifier>{2aad031b-cb49-4d4d-8218-0aa319330b3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\PlayerActorState">
+      <UniqueIdentifier>{b2e9f696-6b89-4525-a29a-cf224b1c6a76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Enemy">
+      <UniqueIdentifier>{5f1b5892-4d5f-4559-aac2-276decab19eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Enemy">
+      <UniqueIdentifier>{5e8f81e7-0e43-456c-8102-805a5e56686b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\System\Animation">
+      <UniqueIdentifier>{f83a1acf-e2bc-4ad3-8b60-5b8b3b7fa60d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="TestScene.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>ソース ファイル\System\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="SkeletalMeshComponent.cpp">
+      <Filter>ソース ファイル\System\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Skeleton.cpp">
+      <Filter>ソース ファイル\System\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="BoneTransform.cpp">
+      <Filter>ソース ファイル\System\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugGrid.cpp">
+      <Filter>ソース ファイル\System\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>ソース ファイル\System\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshComponent.cpp">
+      <Filter>ソース ファイル\System\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>ソース ファイル\System\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>ソース ファイル\System\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>ソース ファイル\System\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexArray.cpp">
+      <Filter>ソース ファイル\System\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraActor.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="LookDownCamera.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsWorld.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelManager.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="BGBlock.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxCollider.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="coin.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="sound.cpp">
+      <Filter>ソース ファイル\System\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Music.cpp">
+      <Filter>ソース ファイル\System\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioManager.cpp">
+      <Filter>ソース ファイル\System\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="BitmapText.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="InputController.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerActorStateIdle.cpp">
+      <Filter>ソース ファイル\PlayerActorState</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerActorStateRun.cpp">
+      <Filter>ソース ファイル\PlayerActorState</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerActorStateJump.cpp">
+      <Filter>ソース ファイル\PlayerActorState</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerActorStateJumpEnd.cpp">
+      <Filter>ソース ファイル\PlayerActorState</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerActor.cpp">
+      <Filter>ソース ファイル\PlayerActorState</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerActorStateJumpLoop.cpp">
+      <Filter>ソース ファイル\PlayerActorState</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdPersonCamera.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyActorBase.cpp">
+      <Filter>ソース ファイル\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyBehaviorComponent.cpp">
+      <Filter>ソース ファイル\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyLookAround.cpp">
+      <Filter>ソース ファイル\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyPatrol.cpp">
+      <Filter>ソース ファイル\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackKnightActor.cpp">
+      <Filter>ソース ファイル\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="RapidJsonHelper.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="AttachMeshComponent.cpp">
+      <Filter>ソース ファイル\System\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerActorStateAttack1.cpp">
+      <Filter>ソース ファイル\PlayerActorState</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerActorStateAttack2.cpp">
+      <Filter>ソース ファイル\PlayerActorState</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerActorStateAttack3.cpp">
+      <Filter>ソース ファイル\PlayerActorState</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerActorStateHit.cpp">
+      <Filter>ソース ファイル\PlayerActorState</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelActor.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyHit.cpp">
+      <Filter>ソース ファイル\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="DepthMap.cpp">
+      <Filter>ソース ファイル\System\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="HDRRenderer.cpp">
+      <Filter>ソース ファイル\System\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="SwordEffectActor.cpp">
+      <Filter>ソース ファイル\PlayerActorState</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TestScene.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor.h">
+      <Filter>ヘッダー ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>ヘッダー ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>ヘッダー ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>ヘッダー ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>ヘッダー ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneBase.h">
+      <Filter>ヘッダー ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>ヘッダー ファイル\System\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="MatrixPalette.h">
+      <Filter>ヘッダー ファイル\System\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="SkeletalMeshComponent.h">
+      <Filter>ヘッダー ファイル\System\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Skeleton.h">
+      <Filter>ヘッダー ファイル\System\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="BoneTransform.h">
+      <Filter>ヘッダー ファイル\System\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>ヘッダー ファイル\System\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>ヘッダー ファイル\System\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshComponent.h">
+      <Filter>ヘッダー ファイル\System\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>ヘッダー ファイル\System\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>ヘッダー ファイル\System\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexArray.h">
+      <Filter>ヘッダー ファイル\System\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugGrid.h">
+      <Filter>ヘッダー ファイル\System\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraActor.h">
+      <Filter>ヘッダー ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="LookDownCamera.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsWorld.h">
+      <Filter>ヘッダー ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelManager.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="BGBlock.h">
+      <Filter>ヘッダー ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>ヘッダー ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxCollider.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="coin.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="sound.h">
+      <Filter>ヘッダー ファイル\System\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioManager.h">
+      <Filter>ヘッダー ファイル\System\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Music.h">
+      <Filter>ヘッダー ファイル\System\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="BitmapText.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="InputController.h">
+      <Filter>ヘッダー ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerActorStateIdle.h">
+      <Filter>ヘッダー ファイル\PlayerActorState</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerActorStateBase.h">
+      <Filter>ヘッダー ファイル\PlayerActorState</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerActorStateRun.h">
+      <Filter>ヘッダー ファイル\PlayerActorState</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerActorStateJump.h">
+      <Filter>ヘッダー ファイル\PlayerActorState</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerActorStateJumpEnd.h">
+      <Filter>ヘッダー ファイル\PlayerActorState</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerActorStateJumpLoop.h">
+      <Filter>ヘッダー ファイル\PlayerActorState</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdPersonCamera.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyActorBase.h">
+      <Filter>ヘッダー ファイル\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyState.h">
+      <Filter>ヘッダー ファイル\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyPatrol.h">
+      <Filter>ヘッダー ファイル\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyBehaviorComponent.h">
+      <Filter>ヘッダー ファイル\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyLookAround.h">
+      <Filter>ヘッダー ファイル\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackKnightActor.h">
+      <Filter>ヘッダー ファイル\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="RapidJsonHelper.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="AttachMeshComponent.h">
+      <Filter>ヘッダー ファイル\System\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelAssetElement.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerActor.h">
+      <Filter>ヘッダー ファイル\PlayerActorState</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerActorStateAttack1.h">
+      <Filter>ヘッダー ファイル\PlayerActorState</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerActorStateAttack2.h">
+      <Filter>ヘッダー ファイル\PlayerActorState</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerActorStateAttack3.h">
+      <Filter>ヘッダー ファイル\PlayerActorState</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerActorStateHit.h">
+      <Filter>ヘッダー ファイル\PlayerActorState</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelActor.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyHit.h">
+      <Filter>ヘッダー ファイル\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="DepthMap.h">
+      <Filter>ヘッダー ファイル\System\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="HDRRenderer.h">
+      <Filter>ヘッダー ファイル\System\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="SwordEffectActor.h">
+      <Filter>ソース ファイル\PlayerActorState</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\Phong.vert">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="Shaders\Phong.frag">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="Shaders\Line.frag">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="Shaders\Line.vert">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="Shaders\Skinned.vert">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="Shaders\Sprite.frag">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="Shaders\Sprite.vert">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="Shaders\tilemap.frag">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="Shaders\LineWorld.vert">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="Shaders\downsampling.frag">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="Shaders\framebufferScreen.frag">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="Shaders\framebufferScreen.vert">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="Shaders\gaussianblur.frag">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="Shaders\hdrBlurBlend.frag">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="Shaders\ShadowMesh.vert">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="Shaders\SkinnedDepth.vert">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="Shaders\SkinnedShadow.vert">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="Shaders\BasicMesh.frag">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="Shaders\BasicMesh.vert">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="Shaders\Depthmap.frag">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="Shaders\Depthmap.vert">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="Shaders\ShadowHDRMesh.frag">
+      <Filter>リソース ファイル</Filter>
+    </None>
+  </ItemGroup>
+</Project>
